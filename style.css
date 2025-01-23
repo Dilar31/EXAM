@@ -5,6 +5,7 @@ body{
   margin: auto;
 
 }
+/*---------header---and-------first------section*/
 header{
   display: flex;
   align-items: center;
@@ -58,6 +59,7 @@ header nav ul .search img{
 }
 main{
   margin-top: 185px;
+  background-color: #EFF0F3;
 }
 .section-one{
   padding:0 95px 0 95px;
@@ -104,6 +106,7 @@ main{
   border: none;
   margin-right: 200px;
   margin-left: 25px;
+  background-color: white;
 }
 .input-and-button input::placeholder{
   color:#C0C0C0;
@@ -117,4 +120,37 @@ main{
   background-color: #6246EA;
   border-radius: 8px;
   font-size: 20px;
+}
+.input-and-button input:focus{
+  outline: 0;
+  font-size: 20px;
+}
+/*--------second---section------*/
+.second-section{
+  padding:0 95px 0 95px;
+  margin-top:263px;
+  display: flex;
+  flex-direction: column;
+}
+.second-section-text{
+  margin-top: 69px;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section-text p {
+  font-size: 24px;
+  font-weight: 700;
+  color:#2B2C34;
+}
+.second-section-text .text1{
+  font-size: 18px;
+}
+.second-section-text .text-and-image{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.second-section-text .text-and-image img{
+  width: 6px;
+  height: 14px;
 }
