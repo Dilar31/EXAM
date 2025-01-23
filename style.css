@@ -154,3 +154,18 @@ main{
   width: 6px;
   height: 14px;
 }
+.second-section-card{
+  margin-top: 50px;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 280px;
+  border-radius: 8px;
+  border:none;
+  background-color: aqua;
+  flex-direction: column;
+  gap:30px;
+}
