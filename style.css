@@ -56,6 +56,65 @@ header nav ul .search{
 header nav ul .search img{
   padding-top: 3px;
 }
-
-
-
+main{
+  margin-top: 185px;
+}
+.section-one{
+  padding:0 95px 0 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-and-button{
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 664px;
+  height: 345px;
+  gap:30px;
+}
+.text-and-button h1 {
+  font-size: 64px;
+  width: 617px;
+  height: 162px;
+  color:#2B2C34;
+  font-weight: 700;
+}
+.text-and-button p{
+  padding-left: 12px;
+  font-size: 20px;
+  width: 652px;
+  height: 50px;
+  font-weight: 400;
+  color:#9A9494;
+  border-left: 3px solid black;
+}
+.input-and-button{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+}
+.input-and-button input{
+  width: 219px;
+  height: 25px;
+  font-weight: 400;
+  color:#C0C0C0;
+  border: none;
+  margin-right: 200px;
+  margin-left: 25px;
+}
+.input-and-button input::placeholder{
+  color:#C0C0C0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input-and-button button{
+  width: 145px;
+  height: 67px;
+  color:#FFFFFE;
+  background-color: #6246EA;
+  border-radius: 8px;
+  font-size: 20px;
+}
