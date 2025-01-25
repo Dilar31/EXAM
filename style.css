@@ -156,16 +156,68 @@ main{
 }
 .second-section-card{
   margin-top: 50px;
-}
-.card{
   display: flex;
   align-items: center;
   justify-content: center;
+  gap:37px;
+}
+.card{
+  display: flex;
   width: 220px;
   height: 280px;
   border-radius: 8px;
   border:none;
-  background-color: aqua;
   flex-direction: column;
+  transition: background-color 1s ease;
+}
+.card:hover {
+  background-color: #6246EA;
+  transform:scale(1.05);
+}
+.img-container {
+  display: flex;
   gap:30px;
+  flex-direction: column;
+  padding-left:30px;
+  padding-top: 65px;
+}
+.img-container .img1{
+  width: 33px;
+  height: 37px;
+}
+.img-container p {
+  font-weight: 700;
+  font-size: 24px;
+  color: #2B2C34;
+}
+.img-container .img2{
+  width: 60px;
+  height: 60px;
+}
+.img-container .img3{
+  width: 40px;
+  height: 24px;
+}
+.img-container .img4{
+  width: 36px;
+  height: 31px;
+}
+.img-container .img5{
+  width: 40px;
+  height: 36px;
+}
+.img-wrapper{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 7.5px;
+}
+.third-section{
+  padding:0 95px 0 95px;
+  margin-top:148px;
+  display: flex;
+  flex-direction: column;
 }
