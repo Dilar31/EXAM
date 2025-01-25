@@ -221,3 +221,57 @@ main{
   display: flex;
   flex-direction: column;
 }
+.section-card{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 425px;
+  padding:20px;
+  gap:25px;
+}
+.card3 h1{
+  font-size:20px;
+}
+.card3 img{
+  width: 260px;
+  height: 198px;
+}
+.card3-img-text{
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:15px;
+}
+.card3-img-text img{
+  width: 57px;
+  height: 57px;
+}
+.card3-text{
+  gap:4px;
+  width: 184px;
+  height: 46px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.card3-text p{
+  width: 100%;
+  font-size: 14px;
+  color:#2B2C34;
+
+}
+.card3-text h4{
+  font-size: 16px;
+  font-weight: 600;
+  color:#2B2C34;
+}
