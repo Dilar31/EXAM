@@ -83,7 +83,7 @@ main{
   color:#2B2C34;
   font-weight: 700;
 }
-.text-and-button p{
+.text-and-button label{
   padding-left: 12px;
   font-size: 20px;
   width: 652px;
@@ -98,7 +98,7 @@ main{
   justify-content:center;
   gap:10px;
 }
-.input-and-button input{
+.input1{
   width: 219px;
   height: 25px;
   font-weight: 400;
@@ -108,12 +108,12 @@ main{
   margin-left: 25px;
   background-color: white;
 }
-.input-and-button input::placeholder{
+.input1::placeholder{
   color:#C0C0C0;
   font-size: 20px;
   font-weight: 400;
 }
-.input-and-button button{
+.button1{
   width: 145px;
   height: 67px;
   color:#FFFFFE;
@@ -121,7 +121,7 @@ main{
   border-radius: 8px;
   font-size: 20px;
 }
-.input-and-button input:focus{
+.input1:focus{
   outline: 0;
   font-size: 20px;
 }
@@ -131,6 +131,7 @@ main{
   margin-top:263px;
   display: flex;
   flex-direction: column;
+  margin-bottom:148px;
 }
 .second-section-text{
   margin-top: 69px;
@@ -217,9 +218,10 @@ main{
 }
 .third-section{
   padding:0 95px 0 95px;
-  margin-top:148px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
+
 }
 .section-card{
   margin-top: 30px;
@@ -274,4 +276,57 @@ main{
   font-size: 16px;
   font-weight: 600;
   color:#2B2C34;
+}
+.fourth-section{
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding:0 95px 0 95px;
+}
+.fourth-section button{
+  width: 165px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #6246EA;
+  color:#FFFFFE;
+  font-size: 20px;
+  font-weight: 700;
+}
+.fifth-section{
+  margin-top: 80px;
+  width: 1440px;
+  height: 453px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:30px;
+}
+.column-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+.fifth-section  h1{
+  width: 604px;
+  height: 45px;
+  font-weight: 700;
+  font-size:36px;
+}
+.fifth-section .column-text label {
+  margin-left:90px;
+  font-size: 20px;
+  width: 696px;
+  height: 25px;
+  font-weight: 400;
+  color:#9A9494;
+}
+.input-button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:20px;
 }
