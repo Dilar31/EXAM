@@ -3,7 +3,11 @@ body{
   font-family: "Plus Jakarta Sans", serif;
   width: 1440px;
   margin: auto;
-
+  padding: 0 95px 0 95px;
+}
+body, html, main {
+  overflow: visible !important;
+  height: auto !important;
 }
 /*---------header---and-------first------section*/
 header{
@@ -14,6 +18,9 @@ header{
   height: 86px;
   padding:0 95px 0 95px;
   background-color: #EFF0F3;
+  position: sticky ;
+  top: 0;
+  z-index: 1000;
 }
 
 header nav ul{
@@ -59,7 +66,7 @@ header nav ul .search img{
   padding-top: 3px;
 }
 main{
-  margin-top: 185px;
+  margin-top: 271px;
   background-color: #EFF0F3;
 }
 .section-one{
@@ -399,9 +406,10 @@ display: flex;
   font-weight: 400;
 }
 .copy{
-  margin-top: 26px;
+  margin-top:26px;
   font-size: 14px;
   font-weight: 400;
   color: #2B2C34;
+  padding-bottom: 26px;
 }
 
